@@ -9,6 +9,11 @@ dev-RG = {
     location   = "westus"
     managed_by = "terraform"
   }
+  rg3 = {
+    name       = "git-rg"
+    location   = "centralindia"
+    managed_by = "terraform"
+  }
 }
 
 dev-stg = {
